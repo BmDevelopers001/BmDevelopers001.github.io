@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     font-family: Raleway;
@@ -19,7 +20,12 @@ body {
 
 .navbar {
     display: flex;
-    position: relative;
+    box-shadow: 0px 5px 5px #ff652f;
+    position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 100;
+    /* position: sticky; */
     padding: 5px 15px;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +121,7 @@ body {
     display: flex;
     /* border: 1px solid white; */
     margin: 0px;
-    margin-top: 70px;
+    margin-top: 180px;
     padding: 20px 0px;
     justify-content: space-evenly;
     align-items: center;
@@ -156,4 +162,46 @@ body {
 #container > div:first-child > h2 {
     font-size: 40px;
     /* border: 1px solid skyblue; */
+}
+
+#aboutme{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    /* border: 1px solid wheat; */
+}
+
+#aboutme > div:first-child{
+    width: 25%;
+    height: auto;
+    /* border: 1px solid white; */
+}
+
+#aboutme>div:nth-child(2) {
+    width: 60%;
+}
+
+#aboutme>div:nth-child(2) > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    /* font-weight: 500; */
+    /* line-height: 25px; */
+}
+
+#aboutme>div:first-child > img{
+    width: 100%;
+    border: 2px solid #ff652f;
+    border-radius: 50%;
+    /* border-radius: 120px 20px 120px 20px; */
+    margin: 20px 0px;
+}
+
+#container + h1 {
+    font-size: 40px;
+    /* font-weight: 900; */
+    margin-top: 110px;
+    text-align: center;
 }
