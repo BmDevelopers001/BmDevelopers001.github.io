@@ -200,8 +200,31 @@ body {
 }
 
 #container + h1 {
-    font-size: 40px;
     /* font-weight: 900; */
     margin-top: 110px;
+}
+
+.heading{
+    font-size: 40px;
     text-align: center;
+}
+
+#skill{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid wheat; */
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+}
+
+#skill > div {
+    border: 1px solid skyblue;
+    padding: 30px 20px 10px;
+    text-align: center;
+}
+
+#skill>div>img{
+    width: 60%;
 }
