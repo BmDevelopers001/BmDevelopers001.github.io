@@ -214,17 +214,25 @@ body {
     width: 70%;
     margin: auto;
     /* border: 1px solid wheat; */
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-column-gap: 40px;
     grid-row-gap: 30px;
 }
 
 #skill > div {
-    border: 1px solid skyblue;
+    border: 5px solid #ff652f;
+    border-radius: 15px;
+    /* box-shadow: 0 5px 15px rgb(73 73 73 / 35%); */
+        /* box-shadow: #ff652f 0 3px 10px, #ff652f 0 4px 4px; */
     padding: 30px 20px 10px;
     text-align: center;
 }
 
-#skill>div>img{
+#skill>div>div{
+    /* border: 1px solid white; */
+    height: 70%;
+}
+
+#skill>div>div>img{
     width: 60%;
 }
