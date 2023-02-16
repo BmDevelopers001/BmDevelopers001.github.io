@@ -309,7 +309,9 @@ body {
 }
 
 #item-2:target~.item-2,
-#item-3:target~.item-3 {
+#item-3:target~.item-3,
+#item-4:target~.item-4
+{
     z-index: 3;
     opacity: 1;
 }
