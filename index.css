@@ -280,7 +280,7 @@ body {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('https://www.linkpicture.com/q/Screenshot_20230211_103620.png');
+    background: url('./Media/Nykaa1.png');
     background-size: cover;
 }
 
@@ -318,13 +318,13 @@ body {
 
 
 #projects {
-    /* border: 2px solid black; */
     height: 200vh;
     margin-top: 40px;
+    /* border: 2px solid wheat; */
 }
 
 #fourProjects {
-    /* border: 2px solid rgb(10, 19, 19); */
+    /* border: 2px solid white; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50% 50%;
@@ -350,45 +350,4 @@ body {
     /* border: 2px solid black; */
 }
 
-#techDetails {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    /* height: 150px; */
-    gap: 20px;
-    /* margin-top: 20px; */
-    /* border: 2px solid black; */
-}
 
-#techDetails div {
-
-    padding: 8px;
-    text-align: center;
-    border: 3px solid #0078ff;
-    box-shadow: #0078ff 0 3px 3px, #0078ff 0 4px 4px;
-    border-radius: 1rem;
-}
-
-#techDetails div img {
-    width: 75%;
-}
-
-#buttons {
-    display: flex;
-    justify-content: space-between;
-}
-
-#project-deteils {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* border: 2px solid blue; */
-    height: 50%;
-}
-
-.titleMargine {
-    margin-top: 8px;
-}
-
-.textMargine {
-    margin-top: -34px;
-}
