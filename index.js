@@ -24,3 +24,13 @@ const meetupCode = document.getElementById("meetupCode");
 meetupCode.onclick = () => {
     window.open("https://github.com/BmDevelopers001/curvy-plant-804")
 }
+
+const mailCode = document.getElementById("mailCode");
+mailCode.onclick = () => {
+    window.open("https://github.com/rajeshdeo/offbeat-need-8210")
+}
+
+const mailLive = document.getElementById("mailLive");
+mailLive.onclick = () => {
+    window.open("https://mailchamp.netlify.app/")
+}
