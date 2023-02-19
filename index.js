@@ -25,23 +25,23 @@ meetCode.onclick = () => {
     window.open("https://github.com/BmDevelopers001/curvy-plant-804")
 }
 
-const mailCode = document.getElementById("mailCode");
-mailCode.onclick = () => {
+const champCode = document.getElementById("champCode");
+champCode.onclick = () => {
     window.open("https://github.com/rajeshdeo/offbeat-need-8210")
 }
 
-const mailLive = document.getElementById("mailLive");
-mailLive.onclick = () => {
+const champLive = document.getElementById("champLive");
+champLive.onclick = () => {
     window.open("https://mailchamp.netlify.app/")
 }
 
-const myhoursCode = document.getElementById("myhoursCode");
-myhoursCode.onclick = () => {
+const hoursCode = document.getElementById("hoursCode");
+hoursCode.onclick = () => {
     window.open("https://github.com/BmDevelopers001/ceaseless-meeting-9748")
 }
 
-const myhoursLive = document.getElementById("myhoursLive");
-myhoursLive.onclick = () => {
+const hoursLive = document.getElementById("hoursLive");
+hoursLive.onclick = () => {
     window.open("https://magenta-faun-ce3d43.netlify.app/")
 }
 
