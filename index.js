@@ -44,3 +44,16 @@ const myhoursLive = document.getElementById("myhoursLive");
 myhoursLive.onclick = () => {
     window.open("https://magenta-faun-ce3d43.netlify.app/")
 }
+
+const contactName = document.getElementById("contactName");
+const contactEmail = document.getElementById("contactEmail");
+const contactMessage = document.getElementById("contactMessage");
+
+const contactSubmit = document.getElementById("contactSubmit");
+contactSubmit.onclick = (e) => {
+    e.preventDefault()
+    console.log([contactName.value,contactEmail.value,contactMessage.value]);
+    contactName.value = null;
+    contactEmail.value = null;
+    contactMessage.value = null;
+}

@@ -529,3 +529,83 @@ body {
     background-color: #ff652f;
     font-weight: 900;
 }
+
+#contact{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    /* padding: 20px 0px; */
+    justify-content: space-between;
+    /* border: 1px solid wheat; */
+}
+
+#contact>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid wheat; */
+}
+
+#contact>div:nth-child(1)>a{
+    text-decoration: none;
+}
+
+#contact>div:nth-child(2){
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#contactForm{
+    /* border: 1px solid skyblue; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputClass{
+    width: 400px;
+    border: 2px solid #ff652f;
+    color: #ffe400;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #272727;
+}
+
+#contactSubmit{
+    color: #272727;
+    font-size: 16px;
+    /* text-align: center; */
+    width: 20%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff652f;
+    border-radius: 10px;
+    background-color: #ff652f;
+}
+
+#contactSubmit:hover{
+    color: #ff652f;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+#contactMessage{
+    resize: vertical;
+}
+
+::placeholder {
+    color: #ff652f;
+    opacity: 70%;
+}
+
+#GitHub{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
