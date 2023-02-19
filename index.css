@@ -419,6 +419,53 @@ body {
     opacity: 1;
 }
 
+/* myhours */
+
+.myhours-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('./Media/myhours1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.myhours-2 {
+    background: url('./Media/myhours2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.myhours-3 {
+    background: url('./Media/myhours3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.myhours-4 {
+    background: url('./Media/myhours4.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+*:target~.myhours-1 {
+    opacity: 0;
+}
+
+#myhours-1:target~.myhours-1 {
+    opacity: 1;
+
+}
+
+#myhours-2:target~.myhours-2,
+#myhours-3:target~.myhours-3,
+#myhours-4:target~.myhours-4 {
+    z-index: 3;
+    opacity: 1
+}
 /* #projects { */
 /* height: auto; */
 /* height: 200vh; */

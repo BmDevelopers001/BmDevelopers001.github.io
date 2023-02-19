@@ -34,3 +34,13 @@ const mailLive = document.getElementById("mailLive");
 mailLive.onclick = () => {
     window.open("https://mailchamp.netlify.app/")
 }
+
+const myhoursCode = document.getElementById("myhoursCode");
+myhoursCode.onclick = () => {
+    window.open("https://github.com/BmDevelopers001/ceaseless-meeting-9748")
+}
+
+const myhoursLive = document.getElementById("myhoursLive");
+myhoursLive.onclick = () => {
+    window.open("https://magenta-faun-ce3d43.netlify.app/")
+}
