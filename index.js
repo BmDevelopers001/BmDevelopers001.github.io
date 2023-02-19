@@ -15,13 +15,13 @@ nykaaCode.onclick = () => {
     window.open("https://github.com/BmDevelopers001/attractive-bikes-9922")
 }
 
-const meetupLive = document.getElementById("meetupLive");
-meetupLive.onclick = () => {
+const meetLive = document.getElementById("meetLive");
+meetLive.onclick = () => {
     window.open("https://bmdevelopers001.github.io/curvy-plant-804/Frontend/index.html")
 }
 
-const meetupCode = document.getElementById("meetupCode");
-meetupCode.onclick = () => {
+const meetCode = document.getElementById("meetCode");
+meetCode.onclick = () => {
     window.open("https://github.com/BmDevelopers001/curvy-plant-804")
 }
 

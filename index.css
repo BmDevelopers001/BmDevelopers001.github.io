@@ -337,6 +337,11 @@ body {
 }
 
 /* MeetUp */
+
+[id^="meetup"] {
+    display: none;
+}
+
 .meetup-1 {
     z-index: 2;
     opacity: 1;
@@ -409,7 +414,6 @@ body {
 
 #mail-1:target~.mail-1 {
     opacity: 1;
-
 }
 
 #mail-2:target~.mail-2,
