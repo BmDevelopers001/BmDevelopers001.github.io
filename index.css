@@ -117,6 +117,20 @@ body {
     }
 }
 
+/* .resume{
+    color: #272727;
+    background-color: #ff652f;
+    border: 2px solid #ff652f;
+    text-align: center;
+    border-radius: 10px;
+    padding: -10px -10px;
+}
+
+.resume:hover {
+    background-color: #272727;
+    color: #ff652f;
+} */
+
 #container {
     display: flex;
     /* border: 1px solid white; */
@@ -126,6 +140,21 @@ body {
     justify-content: space-evenly;
     align-items: center;
     /* background-color: #14a76c; */
+}
+
+#containerResume{
+    background-color: #ff652f;
+    border: 2px solid #ff652f;
+    color: #272727;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+
+#containerResume:hover{
+    background-color: #272727;
+    color: #ff652f;
+    border: 2px solid #ff652f;
 }
 
 #imgDiv {

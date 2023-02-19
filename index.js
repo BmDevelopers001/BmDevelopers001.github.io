@@ -5,6 +5,20 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
 
+const resume = document.getElementById("resume");
+resume.onclick = (e) => {
+    // e.preventDefault()
+    window.open("./Media/Brijesh_Savaliya_Resume.pdf")
+    // console.log("Click");
+}
+
+const containerResume = document.getElementById("containerResume");
+containerResume.onclick = (e) => {
+    // e.preventDefault()
+    window.open("./Media/Brijesh_Savaliya_Resume.pdf")
+    // console.log("Click");
+}
+
 const nykaaLive = document.getElementById("nykaaLive");
 nykaaLive.onclick = () => {
     window.open("https://papaya-rabanadas-a8099e.netlify.app/index.html")
