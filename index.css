@@ -209,8 +209,8 @@ body {
     display: flex;
     width: 70%;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    /* margin-top: 60px; */
+    /* margin-bottom: 100px; */
     justify-content: space-between;
     /* border: 1px solid wheat; */
 }
@@ -248,6 +248,8 @@ body {
 .heading {
     font-size: 40px;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #skill {
@@ -524,7 +526,7 @@ body {
     gap: 50px;
     /* height: auto; */
     /* height: 200vh; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .carousel-wrapper {
