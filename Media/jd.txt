@@ -1,0 +1,41 @@
+Tracxn :
+    - About Tracxn :
+        product company
+
+        Tracxn is ranked 65,157 among websites globally based on its 11,43,606 monthly web visitors.
+
+        providing a research and deal sourcing platform for Venture Capital, Private Equity, Corp Dev, and professionals working around the startup ecosystem.
+
+        team of 600+ working professionals
+
+    - Why should we hire :
+        works on solving technical challenges related to processing, visualisation, and presentation of continually scaling data in an easily accessible manner on the Tracxn platform
+
+        There are currently more than 20 billion data points in the platform which need to be processed, aggregated, and presented in UI across 400+ screens in different ways.
+
+    -Why you want to join Tracxn :
+        will get hands-on experience in the latest technologies and skills like ReactJS, NodeJS, MongoDB, REST API, etc.
+
+        Work with a performance-oriented team driven by ownership and open to experiments.
+
+        Learn to design systems for high accuracy, efficiency, and scalability.
+
+        Very high visibility regarding which startups and markets are exciting globally.
+
+
+NeoDove :
+    - About Tracxn :
+        Mainly work for growth of SMEs
+
+        NeoDove Telecalling CRM and Sales Engagement Platform that helps SMBs improve their telesales team’s productivity and performance.
+
+        Provides many integrations to connect NeoDove account with preferred platform or service provider.
+
+        In May,2022 became a part of Vyapar, India's top GST billing, inventory and accounting software platform for small and medium businesses.
+
+        building more holistic business solutions to help SMEs not just grow, but to help them grow better and smarter.
+
+    - Why you want to join NeoDove :
+        be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment.
+
+Project : Agora.io Zegocloud
