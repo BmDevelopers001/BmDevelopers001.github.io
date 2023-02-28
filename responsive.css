@@ -8,6 +8,11 @@
     align-items: flex-start;
   }
 
+  .brand-title{
+    font-size: 18px;
+    font-weight: 900;
+  }
+
   .toggle-button {
     display: flex;
   }
@@ -33,6 +38,14 @@
   .navbar-links.active {
     display: flex;
   }
+
+  /* classes */
+  .heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
   #container {
     flex-direction: column-reverse;
@@ -98,6 +111,26 @@
     gap: 30px;
   }
 
+  .carousel-wrapper{
+    height: 150px;
+  }
+
+  .project-card {
+    height: auto;
+    padding: 10px 15px;
+    /* padding-top: -40px; */
+    border-radius: 1rem;
+}
+
+.project-btn-div>button {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 4px 7px;
+    border-radius: 5px;
+    background-color: #ff652f;
+    font-weight: 900;
+}
+
   #contact {
     flex-direction: column-reverse;
     width: 90%;
@@ -122,12 +155,12 @@
     margin: auto;
     min-height: 0px;
     margin-bottom: 20px;
-    margin-top: -40px;
+    margin-top: -10px;
   }
 
   .calendar > * {
     /* width: 80%; */
-    zoom: 45%;
+    zoom: 48%;
   }
 
   #GitHub {

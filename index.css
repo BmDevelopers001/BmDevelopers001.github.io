@@ -67,19 +67,20 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 15px;
     right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    /* margin-top: 2px; */
 }
 
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+    background-color: #ff652f;
     border-radius: 10px;
 }
 
@@ -121,6 +122,12 @@ body {
     font-weight: 900;
 }
 
+.heading {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
 #container {
     display: flex;
@@ -214,13 +221,6 @@ body {
 #container+h1 {
     /* font-weight: 900; */
     margin-top: 110px;
-}
-
-.heading {
-    font-size: 40px;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
 }
 
 #skill {
@@ -506,7 +506,7 @@ body {
     width: 100%;
     display: block;
     /* margin: 20px auto; */
-    /* border: 2px solid black; */
+    /* border: 2px solid wheat; */
 }
 
 .project-card {
