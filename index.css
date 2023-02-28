@@ -24,7 +24,7 @@ body {
     top: 0px;
     width: 100%;
     z-index: 100;
-    position: sticky;
+    position: fixed;
     padding: 5px 15px;
     justify-content: space-between;
     align-items: center;
@@ -223,7 +223,7 @@ body {
     margin-top: 110px;
 }
 
-#skill {
+.skill {
     display: grid;
     width: 70%;
     margin: auto;
@@ -233,7 +233,7 @@ body {
     grid-row-gap: 30px;
 }
 
-#skill>div {
+.skill>div {
     border: 5px solid #ff652f;
     border-radius: 15px;
     /* box-shadow: 0 5px 15px rgb(73 73 73 / 35%); */
@@ -242,12 +242,12 @@ body {
     text-align: center;
 }
 
-#skill>div>div {
+.skill>div>div {
     /* border: 1px solid white; */
     height: 70%;
 }
 
-#skill>div>div>img {
+.skill>div>div>img {
     width: 60%;
 }
 
