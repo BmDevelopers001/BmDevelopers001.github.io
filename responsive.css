@@ -84,14 +84,16 @@
   .calendar{
     /* border: 2px solid white; */
     /* width: 20%; */
-    width: 100%;
+    width: 90%;
     margin: auto;
-    /* min-height: 0px; */
+    min-height: 0px;
+    margin-bottom: 20px;
+    margin-top: -40px;
   }
 
   .calendar > * {
     /* width: 80%; */
-    zoom: 50%;
+    zoom: 45%;
   }
 
   #GitHub {
