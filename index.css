@@ -101,6 +101,27 @@ body {
     color: #ff652f;
 } */
 
+.white {
+    color: #ff652f;
+}
+
+.green {
+    color: #ffe400;
+}
+
+.h3Height {
+    line-height: 28px;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.weight{
+    font-weight: 900;
+}
+
+
 #container {
     display: flex;
     /* border: 1px solid white; */
@@ -136,26 +157,6 @@ body {
     filter: invert(100%)
         /* filter: saturate(7); */
         /* filter: color(red); */
-}
-
-.white {
-    color: #ff652f;
-}
-
-.green {
-    color: #ffe400;
-}
-
-.h3Height {
-    line-height: 28px;
-}
-
-.poppins {
-    font-family: 'Poppins', sans-serif;
-}
-
-.weight{
-    font-weight: 900;
 }
 
 #container>div:first-child>h4 {

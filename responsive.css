@@ -36,7 +36,27 @@
 
   #container {
     flex-direction: column-reverse;
+    margin-top: 90px;
   }
+
+   #container > :first-child {
+    width: 90%;
+    margin: auto;
+   }
+
+   #container>div:first-child>h1 {
+    font-size: 42px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    /* border: 1px solid skyblue; */
+}
+
+#container>div:first-child>h2 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border: 1px solid skyblue; */
+}
 
   #imgDiv {
     width: 70%;
@@ -44,17 +64,31 @@
 
   #aboutme {
     flex-direction: column;
+    width: 90%;
   }
 
   #aboutme > div:first-child {
     width: 80%;
+    margin: auto;
   }
+
+  #aboutme>div:nth-child(2) {
+    width: 100%;
+}
+
+#aboutme>div:nth-child(2)>p{
+  font-size: 16px;
+}
 
   #skill {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 25px;
+  }
+
+  #sd{
+    margin-top: -5px;
   }
 
   #projects {
