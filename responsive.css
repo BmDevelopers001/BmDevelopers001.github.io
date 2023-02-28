@@ -1,0 +1,95 @@
+@media screen and (max-width: 767px) {
+  /* html {
+        font-size: 45%;
+    } */
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  #container {
+    flex-direction: column-reverse;
+  }
+
+  #imgDiv {
+    width: 70%;
+  }
+
+  #aboutme {
+    flex-direction: column;
+  }
+
+  #aboutme > div:first-child {
+    width: 80%;
+  }
+
+  #skill {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 25px;
+  }
+
+  #projects {
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+  }
+
+  #contact {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+
+  .inputClass {
+    width: 100%;
+  }
+
+  #contactSubmit {
+    font-size: 16px;
+    width: 24%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  #GitHub {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    grid-row-gap: 20px;
+    margin: auto;
+    justify-content: none;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}

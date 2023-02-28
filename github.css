@@ -41,7 +41,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 
 .calendar > * {
     color: #ccc;
-    zoom: 150%;
+    zoom: 120%;
 }
 
 .calendar-graph text.wday,
