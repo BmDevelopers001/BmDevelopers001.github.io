@@ -540,6 +540,30 @@ body {
     font-weight: 900;
 }
 
+.techStacks{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(7,1fr);
+    grid-column-gap: 15px;
+    margin-bottom: 30px;
+    /* border: 1px solid white; */
+}
+
+.techStacks>div{
+    display: flex;
+    /* margin: auto; */
+    /* border: 1px solid skyblue; */
+}
+
+.mongoClass{
+    margin-left: -10px;
+}
+
+.techStacks>div>img{
+    width: 100%;
+    /* height: 46px; */
+}
+
 #contact{
     display: flex;
     width: 70%;
