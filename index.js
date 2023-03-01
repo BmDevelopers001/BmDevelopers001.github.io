@@ -15,7 +15,7 @@ resume.onclick = (e) => {
 const containerResume = document.getElementById("containerResume");
 containerResume.onclick = (e) => {
     // e.preventDefault()
-    window.open("./Media/fw21_0527-Brijesh-Savaliya-Resume.pdf")
+    window.open("./Media/fw21_0527-Brijesh-Savaliya-Resume.pdf");
     // console.log("Click");
 }
 
