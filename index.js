@@ -22,7 +22,7 @@ containerResume.onclick = (e) => {
 
 const nykaaLive = document.getElementById("nykaaLive");
 nykaaLive.onclick = () => {
-  window.open("https://papaya-rabanadas-a8099e.netlify.app/index.html");
+  window.open("https://beautybomb.netlify.app/");
 };
 
 const nykaaCode = document.getElementById("nykaaCode");
