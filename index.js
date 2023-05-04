@@ -27,24 +27,24 @@ nykaaLive.onclick = () => {
 
 const nykaaCode = document.getElementById("nykaaCode");
 nykaaCode.onclick = () => {
-  window.open("https://github.com/BmDevelopers001/attractive-bikes-9922");
+  window.open("https://github.com/BmDevelopers001/BeautyBomb-NYKAA");
 };
 
 const meetLive = document.getElementById("meetLive");
 meetLive.onclick = () => {
   window.open(
-    "https://bmdevelopers001.github.io/curvy-plant-804/Frontend/index.html"
+    "https://bmdevelopers001.github.io/MeetUp/Frontend/index.html"
   );
 };
 
 const meetCode = document.getElementById("meetCode");
 meetCode.onclick = () => {
-  window.open("https://github.com/BmDevelopers001/curvy-plant-804");
+  window.open("https://github.com/BmDevelopers001/MeetUp");
 };
 
 const champCode = document.getElementById("champCode");
 champCode.onclick = () => {
-  window.open("https://github.com/rajeshdeo/offbeat-need-8210");
+  window.open("https://github.com/BmDevelopers001/mailchamp");
 };
 
 const champLive = document.getElementById("champLive");
@@ -54,12 +54,12 @@ champLive.onclick = () => {
 
 const hoursCode = document.getElementById("hoursCode");
 hoursCode.onclick = () => {
-  window.open("https://github.com/BmDevelopers001/ceaseless-meeting-9748");
+  window.open("https://github.com/BmDevelopers001/myhours");
 };
 
 const hoursLive = document.getElementById("hoursLive");
 hoursLive.onclick = () => {
-  window.open("https://magenta-faun-ce3d43.netlify.app/");
+  window.open("https://myhourss.netlify.app/");
 };
 
 const contactName = document.getElementById("contactName");
