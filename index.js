@@ -94,6 +94,7 @@ contactSubmit.onclick = async (e) => {
     })
 
     if(Email.ok){
+      console.log('Msg received');
       alert('Thanks for reaching out, Your email sent successfully!!')
     }
     
