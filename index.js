@@ -67,10 +67,43 @@ const contactEmail = document.getElementById("contactEmail");
 const contactMessage = document.getElementById("contactMessage");
 
 const contactSubmit = document.getElementById("contactSubmit");
-contactSubmit.onclick = (e) => {
+contactSubmit.onclick = async (e) => {
   e.preventDefault();
-  console.log([contactName.value, contactEmail.value, contactMessage.value]);
+  // console.log([contactName.value, contactEmail.value, contactMessage.value]);
+
+  const data = {
+    service_id: 'service_acrdeue',
+    template_id: 'template_75k10kh',
+    user_id: 'Xq7_XREI4pdpmfouz',
+    template_params: {
+      'from_name': contactName.value,
+      'to_name' : 'Brijesh',
+      'message' : contactMessage.value,
+      'from_email' : contactEmail.value
+    }
+  };
+
+  try {
+
+    let Email = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+      method: 'POST',
+      body : JSON.stringify(data),
+      headers : {
+        'Content-type' : 'application/json'
+      }
+    })
+
+    // let EmailData = await Email.json()
+
+    console.log(Email);
+    
+  } catch (err) {
+    console.log(err);
+  }
+
+
   contactName.value = null;
   contactEmail.value = null;
   contactMessage.value = null;
 };
+
