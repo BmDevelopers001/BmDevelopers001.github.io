@@ -93,9 +93,9 @@ contactSubmit.onclick = async (e) => {
       }
     })
 
-    // let EmailData = await Email.json()
-
-    console.log(Email);
+    if(Email.ok){
+      alert('Thanks for reaching out, Your email sent successfully!!')
+    }
     
   } catch (err) {
     console.log(err);
