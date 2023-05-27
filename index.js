@@ -9,14 +9,14 @@ toggleButton.addEventListener("click", () => {
 const resume = document.getElementById("resume");
 resume.onclick = (e) => {
   // e.preventDefault()
-  window.open("./Media/fw21_0527-Brijesh-Savaliya-Resume.pdf");
+  window.open("./Media/Brijesh-Savaliya-Resume.pdf");
   // console.log("Click");
 };
 
 const containerResume = document.getElementById("containerResume");
 containerResume.onclick = (e) => {
   // e.preventDefault()
-  window.open("./Media/fw21_0527-Brijesh-Savaliya-Resume.pdf");
+  window.open("./Media/Brijesh-Savaliya-Resume.pdf");
   // console.log("Click");
 };
 
